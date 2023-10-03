@@ -32,10 +32,18 @@ $manual= "Manual";
 $design__tips = "Design Tips";
 $usefulLinks = "Useful Links";
 $maintopHeading = "Design for the color impaired";
-$mainTopParagraph = "Color Oracle is a free color blindness simulator for Windows, Mac and Linux. It takes the guesswork out of designing for color blindness by showing you in real time what people with common color vision impairments will see."
+$mainTopParagraph = "Color Oracle is a free color blindness simulator for Windows, Mac and Linux. It takes the guesswork out of designing for color blindness by showing you in real time what people with common color vision impairments will see.";
 $downloadForMac ="Download for Mac";
 $downloadForWindows ="Download for Windows";
-
+$downloadForLinux = "Download for Linux";
+$columnSpan = "Requires Java 6 or higher";
+$about = "About";
+$developmentParagraph ="Development: Bernie Jenny, Monash University, Australia. Ideas, testing and icon: Nathaniel Vaughn Kelso, California.";
+$feedBack = "Feedback";
+$source = "Source";
+$color__oracle_p = "Color Oracle is a work in progress and will improve with time and your input. Please share your Color Oracle testimonial with us and send us an email.";
+$mac_p = "Color Oracle is open source, available on GitHub for Mac and Windows/Java.";
+$copy_p = "© 2006–2018 by Bernie Jenny, Monash University, Melbourne, Australia. Last site update: 5 May 2018.";
 ?>
 
 <header class="header">
@@ -65,20 +73,20 @@ $downloadForWindows ="Download for Windows";
             <div class="main__wrapper">
                 <div class="column">
                     <div>
-                        <a href="">$<?php echo downloadForMac ?></a>
+                        <a href=""><?php echo $downloadForMac ?></a>
                         <span></span>
                     </div>
                 </div>
                   <div class="column">
                     <div>
-                        <a href=""> <?php echo $DownloadForWindows ?></a>
-                        <span>Requires Java 6 or higher</span>
+                        <a href=""> <?php echo $downloadForWindows ?></a>
+                        <span><?php echo $columnSpan ?></span>
                     </div>
                 </div>
                   <div class="column">
                     <div>
-                        <a href="">Download for Linux</a>
-                        <span>Requires Java 6 or higher</span>
+                        <a href=""><?php echo $downloadForLinux ?></a>
+                        <span><?php echo $columnSpan ?></span>
                     </div>
                 </div>
             </div>
@@ -88,19 +96,19 @@ $downloadForWindows ="Download for Windows";
     <footer class="footer">
         <ul>
             <li>
-                <h5>About</h5>
-                <p>Development: Bernie Jenny, Monash University, Australia. Ideas, testing and icon: Nathaniel Vaughn Kelso, California.</p>
+                <h5><?php echo $about?></h5>
+                <p><?php echo $developmentParagraph ?></p>
             </li>
                <li>
-                <h5>Feedback</h5>
-                <p>Color Oracle is a work in progress and will improve with time and your input. Please share your Color Oracle testimonial with us and send us an email.</p>
+                <h5><?php echo $feedBack ?></h5>
+                <p><?php echo $color__oracle_p?></p>
             </li>
                <li>
-                <h5>Source</h5>
-                <p>Color Oracle is open source, available on GitHub for Mac and Windows/Java.</p>
+                <h5><?php echo $source ?></h5>
+                <p><?php echo $mac_p?></p>
             </li>
         </ul>
-        <p class="copy">© 2006–2018 by Bernie Jenny, Monash University, Melbourne, Australia. Last site update: 5 May 2018.</p>
+        <p class="copy"> <?php echo $copy_p?></p>
     </footer>
   
 </body>
