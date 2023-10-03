@@ -8,22 +8,6 @@
     <title>Co</title>
 </head>
 <body>
-    <!-- <header class="header">
-        <nav class="navbar">
-            <div class="navbar__logo">
-                <a href="">CO</a>
-            </div>
-            <div class="navbar__links">
-                <ul>
-                    <li><a href="">Color Oracle</a></li>
-                    <li><a href="">How To</a></li>
-                    <li><a href="">Manual</a></li>
-                    <li><a href="">Design Tips</a></li>
-                    <li><a href="">Useful Links</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header> -->
     <?php
 $navbar__logo = "CO";
 $color__oracle = "Color Oracle";
