@@ -8,7 +8,7 @@
     <title>Co</title>
 </head>
 <body>
-    <header class="header">
+    <!-- <header class="header">
         <nav class="navbar">
             <div class="navbar__logo">
                 <a href="">CO</a>
@@ -23,25 +23,55 @@
                 </ul>
             </div>
         </nav>
-    </header>
+    </header> -->
+    <?php
+$navbar__logo = "CO";
+$color__oracle = "Color Oracle";
+$how__to = "How To";
+$manual= "Manual";
+$design__tips = "Design Tips";
+$usefulLinks = "Useful Links";
+$maintopHeading = "Design for the color impaired";
+$mainTopParagraph = "Color Oracle is a free color blindness simulator for Windows, Mac and Linux. It takes the guesswork out of designing for color blindness by showing you in real time what people with common color vision impairments will see."
+$downloadForMac ="Download for Mac";
+$downloadForWindows ="Download for Windows";
+
+?>
+
+<header class="header">
+    <nav class="navbar">
+        <div class="navbar__logo">
+            <a href=""><?php echo $navbar__logo; ?></a>
+        </div>
+        <div class="navbar__links">
+            <ul>
+                <li><a href=""><?php echo $color__oracle; ?></a></li>
+                <li><a href=""><?php echo $how__to; ?></a></li>
+                <li><a href=""><?php echo $manual; ?></a></li>
+                <li><a href=""><?php echo $design__tips; ?></a></li>
+                <li><a href=""><?php echo $usefulLinks; ?></a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
 
     <main class="main">
         <div class="container">
             <div class="main__top">
-                <h1>Design for the color impaired</h1>
-                <p>Color Oracle is a free color blindness simulator for Windows, Mac and Linux. It takes the guesswork out of designing for color blindness by showing you in real time what people with common color vision impairments will see.</p>
+                <h1><?php echo $maintopHeading; ?></h1>
+                <p><?php echo $mainTopParagraph?></p>
             </div>
 
             <div class="main__wrapper">
                 <div class="column">
                     <div>
-                        <a href="">Download for Mac</a>
+                        <a href="">$<?php echo downloadForMac ?></a>
                         <span></span>
                     </div>
                 </div>
                   <div class="column">
                     <div>
-                        <a href="">Download for Mac</a>
+                        <a href=""> <?php echo $DownloadForWindows ?></a>
                         <span>Requires Java 6 or higher</span>
                     </div>
                 </div>
@@ -72,5 +102,6 @@
         </ul>
         <p class="copy">© 2006–2018 by Bernie Jenny, Monash University, Melbourne, Australia. Last site update: 5 May 2018.</p>
     </footer>
+  
 </body>
 </html>
