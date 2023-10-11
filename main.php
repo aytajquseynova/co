@@ -1,23 +1,10 @@
     <?php
-$navbar__logo = "CO";
-$color__oracle = "Color Oracle";
-$how__to = "How To";
-$manual= "Manual";
-$design__tips = "Design Tips";
-$usefulLinks = "Useful Links";
 $maintopHeading = "Design for the color impaired";
 $mainTopParagraph = "Color Oracle is a free color blindness simulator for Windows, Mac and Linux. It takes the guesswork out of designing for color blindness by showing you in real time what people with common color vision impairments will see.";
 $downloadForMac ="Download for Mac";
 $downloadForWindows ="Download for Windows";
 $downloadForLinux = "Download for Linux";
 $columnSpan = "Requires Java 6 or higher";
-$about = "About";
-$developmentParagraph ="Development: Bernie Jenny, Monash University, Australia. Ideas, testing and icon: Nathaniel Vaughn Kelso, California.";
-$feedBack = "Feedback";
-$source = "Source";
-$color__oracle_p = "Color Oracle is a work in progress and will improve with time and your input. Please share your Color Oracle testimonial with us and send us an email.";
-$mac_p = "Color Oracle is open source, available on GitHub for Mac and Windows/Java.";
-$copy_p = "© 2006–2018 by Bernie Jenny, Monash University, Melbourne, Australia. Last site update: 5 May 2018.";
     ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -29,7 +16,7 @@ $copy_p = "© 2006–2018 by Bernie Jenny, Monash University, Melbourne, Austral
     <title>Co</title>
 </head>
 <body>
-     <?php
+    <?php
     include './partials./nav.php';
     ?>
     <main class="main">
@@ -60,25 +47,6 @@ $copy_p = "© 2006–2018 by Bernie Jenny, Monash University, Melbourne, Austral
                 </div>
             </div>
         </div>
-    </main>
-
-    <footer class="footer">
-        <ul>
-            <li>
-                <h5><?php echo $about?></h5>
-                <p><?php echo $developmentParagraph ?></p>
-            </li>
-               <li>
-                <h5><?php echo $feedBack ?></h5>
-                <p><?php echo $color__oracle_p?></p>
-            </li>
-               <li>
-                <h5><?php echo $source ?></h5>
-                <p><?php echo $mac_p?></p>
-            </li>
-        </ul>
-        <p class="copy"> <?php echo $copy_p?></p>
-    </footer>
-  
+    </main> 
 </body>
 </html>
